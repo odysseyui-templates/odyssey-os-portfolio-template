@@ -159,13 +159,17 @@ export const TERMINAL_CONFIG = {
     'Type "help" for available operations.',
   ],
   commands: {
-    help: "Available commands: bio, skills, ops, clear, contact",
+    help: "Available commands: bio, skills, ops, clear, contact, github",
     bio: "Simon 'Ghost' Riley – Elite SAS operative and senior member of Task Force 141.",
     skills: "Stealth Ops, CQB, Tactical Recon, Sniper Ops, Urban Warfare.",
     contact: "Encrypted Channel Required",
     ops: {
       message: "Accessing classified mission logs...",
       url: "#classified",
+    },
+    github: {
+      message: "Opening GitHub profile...",
+      url: "https://taskforce141.com/ghost",
     },
   },
 };
